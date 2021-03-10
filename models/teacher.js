@@ -7,4 +7,4 @@ const teacherSchema = new Schema({
     name: {first: String, last: String},
 });
 
-const Teacher = mongoose.model('Teacher', teacherSchema);
+export default mongoose.model('Teacher', teacherSchema);

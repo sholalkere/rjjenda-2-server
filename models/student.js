@@ -14,4 +14,4 @@ const studentSchema = new Schema({
     parent2pref: [{teacher: Schema.Types.ObjectId, pref: Number}],
 });
 
-const Student = mongoose.model('Student', studentSchema);
+export default mongoose.model('Student', studentSchema);

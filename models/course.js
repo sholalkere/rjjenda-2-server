@@ -7,4 +7,4 @@ const courseSchema = new Schema({
     teacher: Schema.Types.ObjectId,
 });
 
-const Course = mongoose.model('Course', courseSchema);
+export default mongoose.model('Course', courseSchema);
